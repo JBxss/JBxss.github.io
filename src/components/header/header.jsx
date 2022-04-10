@@ -1,6 +1,8 @@
 import React from 'react'
 import "./header.css"
 import CV from './CV'
+import ME from '../../assets/N2PuvF9Q_400x400-removebg-preview.png'
+import HeaderSocials from './headerSocials'
 
 const header = () => {
   return (
@@ -10,12 +12,13 @@ const header = () => {
         <h1>Juan Bossa</h1>
         <h5 className="text-light">Frontend Developer</h5>
         <CV />
+        <HeaderSocials />
 
         <div className="me">
-          <img src="" alt="Mi foto xD" />
+          <img src={ME} alt="Mi foto xD" />
         </div>
 
-        <a href="#contact" className='scroll_down'>Scroll Down</a>
+        <a href="#contact" className='scroll__down'>Scroll Down</a>
       </div>
     </header>
   )
