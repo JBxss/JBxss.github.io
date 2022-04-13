@@ -1,7 +1,7 @@
 import React from 'react'
 import "./about.css"
 import ME from "../../assets/N2PuvF9Q_400x400.jpg"
-import {FaAward, FaFolderOpen} from "react-icons/fa"
+import {FaAward, FaFolderOpen, FaHourglassHalf} from "react-icons/fa"
 
 const about = () => {
   return (
@@ -19,9 +19,15 @@ const about = () => {
         <div className="about__content">
           <div className="about__cards">
             <article className='about__card'>
-              <FaAward className='about__icon'/>
+              <FaHourglassHalf className='about__icon'/>
               <h5>Experience</h5>
               <small>Only Personal Projects</small>
+            </article>
+
+            <article className='about__card'>
+              <FaAward className='about__icon'/>
+              <h5>Education</h5>
+              <small>10+ Certificates</small>
             </article>
 
             <article className='about__card'>
@@ -35,7 +41,7 @@ const about = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eos blanditiis quo voluptate, hic aut suscipit dolor? Debitis error ipsum inventore deleniti asperiores ad blanditiis obcaecati quaerat? Quam, explicabo quae?
           </p>
 
-          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+          <a href="https://drive.google.com/drive/folders/1S1NPiKxZYqjyP7GykIuf4ZNLbwQzXm76?usp=sharing" className='btn btn-primary'>See Certificates</a>
         </div>
       </div>
     </section>

@@ -27,13 +27,14 @@ nav a:hover {
 }
 
 nav a.active {
-    background: var(--color-white);
-    color: var(--color-primary);
+    background: var(--color-primary);
+    color: var(--color-bg);
 }
 
 /** ========= Media Queries (Small Devices) ============== */
 @media screen and (max-width: 600px) {
-    nav, a {
+    nav, nav a {
         padding: 0.6rem;
+        font-size: 0.9rem;
     }
 }
