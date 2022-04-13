@@ -4,7 +4,7 @@ const cv = "https://docs.google.com/document/d/1JzRLnIAy7dcMivaH_nbSP-8mAITZPfb-
 const CV = () => {
   return (
     <div className="cv">
-        <a href={cv} download className='btn'>Download CV</a>
+        <a href={cv} download target='_blank' rel="noopener noreferrer" className='btn'>Download CV</a>
         <a href="#contact" className='btn btn-primary'>Let's Talk</a>
     </div>
   )

@@ -17,10 +17,10 @@ const portafolio = () => {
               </div>
               <h3>{title}</h3>
               <div className="portafolio__item-links">
-                <a href={github} className="btn">
+                <a href={github} target='_blank' rel="noopener noreferrer" className="btn">
                   GitHub
                 </a>
-                <a href={demo} className="btn btn-primary">
+                <a href={demo} target='_blank' rel="noopener noreferrer" className="btn btn-primary">
                   Repositorio
                 </a>
               </div>

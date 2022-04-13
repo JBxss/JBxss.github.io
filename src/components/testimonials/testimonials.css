@@ -36,16 +36,18 @@
 
 /** ========= Media Queries (Medium Devices) ============== */
 @media screen and (max-width: 1024px) {
-    
+    .container.testimonials__container {
+        width: 60%;
+    }
 }
 
 /** ========= Media Queries (Small Devices) ============== */
 @media screen and (max-width: 600px) {
     .container.testimonials__container {
-        width: var(--container-width-sm);
+        width: 80%;
     }
 
     .client__review {
-        width: var(--container-width-sm);
+        width: 80%;
     }
 }
