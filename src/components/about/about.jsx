@@ -6,8 +6,8 @@ import {FaAward, FaFolderOpen, FaHourglassHalf} from "react-icons/fa"
 const about = () => {
   return (
     <section id='about'>
-      <h5>Get To Know</h5>
-      <h2>About Me</h2>
+      <h5>Conoce</h5>
+      <h2>Sobre Mi</h2>
 
       <div className="container about__container">
         <div className="about__me">
@@ -20,20 +20,20 @@ const about = () => {
           <div className="about__cards">
             <article className='about__card'>
               <FaHourglassHalf className='about__icon'/>
-              <h5>Experience</h5>
-              <small>Only Personal Projects</small>
+              <h5>Experiencia</h5>
+              <small>Solo Proyectos Personales</small>
             </article>
 
             <article className='about__card'>
               <FaAward className='about__icon'/>
-              <h5>Education</h5>
-              <small>10+ Certificates</small>
+              <h5>Educacion</h5>
+              <small>10+ Certificaciones</small>
             </article>
 
             <article className='about__card'>
               <FaFolderOpen className='about__icon'/>
-              <h5>Projects</h5>
-              <small>5 Completed</small>
+              <h5>Proyectos</h5>
+              <small>5 Completados</small>
             </article>
           </div>
 
