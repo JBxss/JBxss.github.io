@@ -14,10 +14,16 @@
 :root {
     --color-bg: rgba(18, 18, 18);
     --color-bg-variant: rgba(31, 31, 31);
+    --color-bg-light: rgb(237, 237, 237);
+    --color-bg-light-variant: rgb(224, 224, 224);
+
     --color-primary: #ff4d4d;
     --color-primary-variant: rgba(255, 77, 77, 0.4);
+
     --color-white: #fff;
+    --color-black: #000;
     --color-light: rgba(255, 255, 255, 0.6);
+    --color-dark: rgba(0, 0, 0, 0.6);
 
     --transition: all 400ms ease;
     
@@ -36,10 +42,9 @@ html {
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: var(--color-bg2);
+    background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(../src/assets/double-bubble-dark.png);
 }
 
 /* ------ General Styles ----------- */

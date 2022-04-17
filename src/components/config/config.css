@@ -1,17 +1,18 @@
- .config__container > .btn__theme {
+ .config__container .btn__theme {
     position: absolute;
     top: 1.5rem;
     right: 0;
-    
     background: transparent;
     margin-right: 2rem;
+    transition: var(--transition);
+    
 }
 
-.config__container > .btn__trans {
+.config__container .btn__trans {
     position: absolute;
     top: 1.5rem;
     right: 0;
-    
+    transition: var(--transition);
     background: transparent;
     margin-right: 6.5rem;
 }

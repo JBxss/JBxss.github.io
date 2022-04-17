@@ -2,9 +2,10 @@ import { React, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import i18next from "i18next";
 import "./config.css";
-import { MdLightMode } from "react-icons/md";
+import { MdLightMode, MdDarkMode } from "react-icons/md";
 
-const Config = () => {
+const Config = ({ theme, toggleTheme }) => {
+  console.log(theme)
   const { i18n, t } = useTranslation(["common"]);
 
   useEffect(() => {
@@ -28,8 +29,10 @@ const Config = () => {
         <option value="es">{t("es")}</option>
       </select>
 
-      <button className="btn btn__theme">
-        <MdLightMode />
+      <button onClick={toggleTheme} className="btn btn__theme">
+        {
+          theme === 'light' ? <MdLightMode /> : <MdDarkMode />
+        }
       </button>
 
     </div>

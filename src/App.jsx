@@ -1,4 +1,9 @@
 import { Suspense } from "react";
+import { ThemeProvider } from "styled-components";
+
+//Styles
+import { UseDarkMode } from "./styles/useDarkMode";
+import { GlobalStyles, lightTheme, darkTheme } from "./styles/globalStyles";
 
 // Componentes
 import Header from "./components/header/header";
@@ -13,19 +18,24 @@ import Footer from "./components/footer/footer";
 import Config from "./components/config/config";
 
 const App = () => {
+  const [theme, toggleTheme] = UseDarkMode();
+
   return (
     <>
       <Suspense fallback={null}>
-        <Config />
-        <Header />
-        <Nav />
-        <About />
-        <Experiences />
-        <Services />
-        <Portafolio />
-        <Testimonials />
-        <Contact />
-        <Footer />
+        <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
+          <GlobalStyles />
+          <Config theme={theme} toggleTheme={toggleTheme} />
+          <Header />
+          <Nav />
+          <About />
+          <Experiences />
+          <Services />
+          <Portafolio />
+          <Testimonials />
+          <Contact />
+          <Footer />
+        </ThemeProvider>
       </Suspense>
     </>
   );
