@@ -5,10 +5,9 @@
 }
 
 .experience__container > div {
-    background: var(--color-bg-variant);
     padding: 2.4rem 5rem;
     border-radius: 2rem;
-    border: 1px solid transparent;
+    border: 1px solid var(--color-primary);
     transition: var(--transition);
 }
 

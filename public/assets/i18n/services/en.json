@@ -1,0 +1,17 @@
+{
+    "whatOffer": "What I Offer",
+    "services": "Services",
+
+    "ux": "UI/UX Design",
+    "item1_ux": "Creation of User Interfaces",
+    "item2_ux": "Creation of User Experience",
+
+    "web": "Web Development",
+    "item1_web": "Creation of webpages",
+    "item2_web": "Creation of tools and WebApps",
+
+    "cont": "Content Creation",
+    "item1_cont": "Create audiovisual content",
+    "item2_cont": "Digital content creation"
+
+}

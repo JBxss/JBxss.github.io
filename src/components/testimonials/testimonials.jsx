@@ -1,14 +1,16 @@
 import React from "react";
-import "./testimonials.css";
-import data from "./clients";
 import { Keyboard, EffectCards, Pagination, Autoplay } from "swiper";
 import { Swiper, SwiperSlide } from 'swiper/react';
+import data from "./clients";
+import "./testimonials.css";
 
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/effect-cards";
 
 const testimonials = () => {
+  
+
   return (
     <section id="testimonials">
       <h5>Review from clients</h5>

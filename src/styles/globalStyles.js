@@ -32,10 +32,6 @@ export const GlobalStyles = createGlobalStyle`
     color: ${({ theme }) => theme.theme};
   }
 
-  nav a.active {
-    color: ${({ theme }) => theme.color};
-  }
-
   .about__card {
     background: ${({ theme }) => theme.variant};
   }
@@ -46,6 +42,26 @@ export const GlobalStyles = createGlobalStyle`
 
   .about__content p {
   color: ${({ theme }) => theme.theme};
+  }
+
+  .experience__container > div {
+    background: ${({ theme }) => theme.variant};
+  }
+
+  .service {
+    background: ${({ theme }) => theme.variant};
+  }
+
+  .portafolio__item {
+    background: ${({ theme }) => theme.variant};
+  }
+
+  .testimonial {
+  background: ${({ theme }) => theme.variant};
+  }
+
+  .client__review {
+    color: ${({ theme }) => theme.theme};
   }
 
 `;

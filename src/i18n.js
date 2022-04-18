@@ -14,7 +14,7 @@ i18next.use(Backend).use(LanguageDetector).use(initReactI18next).init({
     debug: false,
 
     // can have multiple namespaces
-    ns: ["common", "header", "about"],
+    ns: ["common", "header", "about", "experience", "services"],
 
     interpolation: {
         escapeValue: false,

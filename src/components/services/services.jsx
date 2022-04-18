@@ -1,34 +1,37 @@
 import React from 'react'
-import "./services.css"
+import { useTranslation } from "react-i18next";
 import {FiCheckSquare} from 'react-icons/fi'
+import "./services.css"
 
-const services = () => {
+const Services = () => {
+  const { t } = useTranslation(["services"]);
+
   return (
     <section id='services'>
-      <h5>What I Offer</h5>
-      <h2>Services</h2>
+      <h5>{t("whatOffer")}</h5>
+      <h2>{t("services")}</h2>
 
       <div className="container services__container">
         <article className="service">
           <div className="service__head">
-            <h3>UI/UX Design</h3>
+            <h3>{t("ux")}</h3>
           </div>
           <ul className="service__list">
             <li>
               <FiCheckSquare className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>{t("item1_ux")}</p>
             </li>
             <li>
               <FiCheckSquare className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>{t("item2_ux")}</p>
             </li>
             <li>
               <FiCheckSquare className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>{t("item1_ux")}</p>
             </li>
             <li>
               <FiCheckSquare className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>{t("item2_ux")}</p>
             </li>
           </ul>
         </article>
@@ -36,24 +39,24 @@ const services = () => {
 
         <article className="service">
           <div className="service__head">
-            <h3>Web Development</h3>
+            <h3>{t("web")}</h3>
           </div>
           <ul className="service__list">
             <li>
               <FiCheckSquare className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>{t("item1_web")}</p>
             </li>
             <li>
               <FiCheckSquare className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>{t("item2_web")}</p>
             </li>
             <li>
               <FiCheckSquare className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>{t("item1_web")}</p>
             </li>
             <li>
               <FiCheckSquare className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>{t("item2_web")}</p>
             </li>
           </ul>
         </article>
@@ -61,24 +64,24 @@ const services = () => {
 
         <article className="service">
           <div className="service__head">
-            <h3>Content creation</h3>
+            <h3>{t("cont")}</h3>
           </div>
           <ul className="service__list">
             <li>
               <FiCheckSquare className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>{t("item1_cont")}</p>
             </li>
             <li>
               <FiCheckSquare className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>{t("item2_cont")}</p>
             </li>
             <li>
               <FiCheckSquare className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>{t("item1_cont")}</p>
             </li>
             <li>
               <FiCheckSquare className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>{t("item2_cont")}</p>
             </li>
           </ul>
         </article>
@@ -89,4 +92,4 @@ const services = () => {
   )
 }
 
-export default services
+export default Services

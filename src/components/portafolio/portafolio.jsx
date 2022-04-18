@@ -1,11 +1,14 @@
 import React from "react";
-import "./portafolio.css";
+import { useTranslation } from "react-i18next";
 import data from "./projects";
+import "./portafolio.css";
 
-const portafolio = () => {
+const Portafolio = () => {
+  const { t } = useTranslation(["common"]);
+
   return (
     <section id="portafolio">
-      <h5>My Recent Work</h5>
+      <h5>{t("small_portafolio")}</h5>
       <h2>Portafolio</h2>
 
       <div className="container portafolio__container">
@@ -21,7 +24,7 @@ const portafolio = () => {
                   GitHub
                 </a>
                 <a href={demo} target='_blank' rel="noopener noreferrer" className="btn btn-primary">
-                  Repositorio
+                  Demo
                 </a>
               </div>
             </article>
@@ -32,4 +35,4 @@ const portafolio = () => {
   );
 };
 
-export default portafolio;
+export default Portafolio;

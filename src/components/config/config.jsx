@@ -5,7 +5,6 @@ import { MdLightMode, MdDarkMode } from "react-icons/md";
 import "./config.css";
 
 const Config = ({ theme, toggleTheme }) => {
-  console.log(theme);
   const { i18n, t } = useTranslation(["common"]);
 
   useEffect(() => {
@@ -25,6 +24,7 @@ const Config = ({ theme, toggleTheme }) => {
       onChange={handleLanguageChange}
     >
       <select className="btn btn__trans">
+      <option value="" selected>{t("lng")}</option>
         <option value="en">{t("en")}</option>
         <option value="es">{t("es")}</option>
       </select>
