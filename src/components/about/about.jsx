@@ -1,51 +1,57 @@
-import React from 'react'
-import "./about.css"
-import ME from "../../assets/N2PuvF9Q_400x400.jpg"
-import {FaAward, FaFolderOpen, FaHourglassHalf} from "react-icons/fa"
+import React from "react";
+import { useTranslation } from "react-i18next";
+import { FaAward, FaFolderOpen, FaHourglassHalf } from "react-icons/fa";
+import ME from "../../assets/me_about.png";
+import "./about.css";
 
-const about = () => {
+const About = () => {
+  const { t } = useTranslation(["about"]);
+
   return (
-    <section id='about'>
-      <h5>Conoce</h5>
-      <h2>Sobre Mi</h2>
+    <section id="about">
+      <h5>{t("getToKnow")}</h5>
+      <h2>{t("about")}</h2>
 
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={ME} alt="Me"/>
+            <img src={ME} alt="Mi foto" />
           </div>
         </div>
 
         <div className="about__content">
           <div className="about__cards">
-            <article className='about__card'>
-              <FaHourglassHalf className='about__icon'/>
-              <h5>Experiencia</h5>
-              <small>Solo Proyectos Personales</small>
+            <article className="about__card">
+              <FaHourglassHalf className="about__icon" />
+              <h5>{t("experience")}</h5>
+              <small>{t("small")}</small>
             </article>
 
-            <article className='about__card'>
-              <FaAward className='about__icon'/>
-              <h5>Educacion</h5>
-              <small>10+ Certificaciones</small>
+            <article className="about__card">
+              <FaAward className="about__icon" />
+              <h5>{t("education")}</h5>
+              <small>10+ {t("certificate")}</small>
             </article>
 
-            <article className='about__card'>
-              <FaFolderOpen className='about__icon'/>
-              <h5>Proyectos</h5>
-              <small>5 Completados</small>
+            <article className="about__card">
+              <FaFolderOpen className="about__icon" />
+              <h5>{t("projects")}</h5>
+              <small>5 {t("complete")}</small>
             </article>
           </div>
 
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eos blanditiis quo voluptate, hic aut suscipit dolor? Debitis error ipsum inventore deleniti asperiores ad blanditiis obcaecati quaerat? Quam, explicabo quae?
-          </p>
+          <p>{t("lore")}</p>
 
-          <a href="https://drive.google.com/drive/folders/1S1NPiKxZYqjyP7GykIuf4ZNLbwQzXm76?usp=sharing" className='btn btn-primary'>See Certificates</a>
+          <a
+            href="https://drive.google.com/drive/folders/1S1NPiKxZYqjyP7GykIuf4ZNLbwQzXm76?usp=sharing"
+            className="btn btn-primary"
+          >
+            {t("see")}
+          </a>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default about
+export default About;

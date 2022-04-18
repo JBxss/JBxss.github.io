@@ -1,12 +1,13 @@
 import React from 'react'
-import "./header.css"
-import CV from './CV'
-import ME from '../../assets/N2PuvF9Q_400x400-removebg-preview.png'
-import HeaderSocials from './headerSocials'
 import { useTranslation } from 'react-i18next'
+import CV from './CV'
+import ME from '../../assets/me_header.png';
+import HeaderSocials from './headerSocials'
+import "./header.css"
+
 
 const Header = () => {
-  const { t } = useTranslation(["header"])
+  const { t } = useTranslation(["header"]);
 
   return (
     <header>

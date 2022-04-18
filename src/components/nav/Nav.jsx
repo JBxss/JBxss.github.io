@@ -1,11 +1,10 @@
-import React from 'react'
-import './nav.css'
+import React, { useState } from 'react'
 import {AiOutlineHome, AiOutlineUser} from 'react-icons/ai'
 import {IoLibraryOutline} from 'react-icons/io5'
 import {RiServiceLine} from 'react-icons/ri'
 import {MdOutlineHomeRepairService} from 'react-icons/md'
 import {BiMessageSquareDetail} from 'react-icons/bi'
-import {useState} from 'react'
+import './nav.css'
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState('#');

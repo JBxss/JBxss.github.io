@@ -16,6 +16,7 @@
 .about__me-image {
     border-radius: 2rem;
     overflow: hidden;
+    background: var(--color-primary-variant);
     transform: rotate(10deg);
     transition: var(--transition);
 }
@@ -31,8 +32,8 @@
 }
 
 .about__card {
-    background: var(--color-bg-variant);
     border: 1px solid transparent;
+    border-color: var(--color-primary);
     border-radius: 1rem;
     padding: 2rem;
     text-align: center;
@@ -57,12 +58,10 @@
 
 .about__card small {
     font-size: 0.7rem;
-    color: var(--color-light);
 }
 
 .about__content p {
     margin: 2rem 0 2.6rem;
-    color: var(--color-light);
 }
 
 
