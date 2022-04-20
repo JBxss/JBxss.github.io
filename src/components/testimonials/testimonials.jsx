@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import { Keyboard, EffectCards, Pagination, Autoplay } from "swiper";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import data from "./clients";
@@ -8,13 +9,13 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/effect-cards";
 
-const testimonials = () => {
-  
+const Testimonials = () => {
+  const { t } = useTranslation(["common"]);
 
   return (
     <section id="testimonials">
-      <h5>Review from clients</h5>
-      <h2>Testimonials</h2>
+      <h5>{t("small_testimonial")}</h5>
+      <h2>{t("testimonial")}</h2>
 
       <Swiper className="container testimonials__container"
       effect={"cards"}
@@ -49,4 +50,4 @@ const testimonials = () => {
   );
 };
 
-export default testimonials;
+export default Testimonials;

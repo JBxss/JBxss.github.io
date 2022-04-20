@@ -52,6 +52,10 @@ export const GlobalStyles = createGlobalStyle`
     background: ${({ theme }) => theme.variant};
   }
 
+  .service__head h3 {
+    color: ${({ theme }) => theme.bg};
+}
+
   .portafolio__item {
     background: ${({ theme }) => theme.variant};
   }
@@ -62,6 +66,26 @@ export const GlobalStyles = createGlobalStyle`
 
   .client__review {
     color: ${({ theme }) => theme.theme};
+  }
+
+  .contact__option {
+    background: ${({ theme }) => theme.variant};
+  }
+
+  .contact__option h5 {
+    color: ${({ theme }) => theme.theme};
+  }
+
+  input, textarea {
+    color: ${({ theme }) => theme.color};
+  }
+
+  footer a {
+    color: ${({ theme }) => theme.bg};
+  }
+
+  .footer__copyright {
+    color: ${({ theme }) => theme.bg};
   }
 
 `;

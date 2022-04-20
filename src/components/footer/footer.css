@@ -6,9 +6,6 @@ footer {
     margin-top: 7rem;
 }
 
-footer a {
-    color: var(--color-bg);
-}
 
 .footer__logo {
     font-size: 2rem;
@@ -49,7 +46,6 @@ footer a {
 
 .footer__copyright {
     margin-bottom: 4rem;
-    color: var(--color-bg);
 }
 
 /** ========= Media Queries (Small Devices) ============== */

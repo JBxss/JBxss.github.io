@@ -1,21 +1,24 @@
 import React from 'react'
-import "./footer.css"
+import { useTranslation } from "react-i18next";
 import { AiFillTwitterCircle } from 'react-icons/ai'
 import { BsFacebook, BsInstagram } from 'react-icons/bs'
+import "./footer.css"
 
-const footer = () => {
+const Footer = () => {
+  const { t } = useTranslation(["common"]);
+
   return (
     <footer>
       <a href="/#" className='footer__logo'>Juan Bossa</a>
 
       <ul className='permalinks'>
         <li><a href="/#">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#services">Services</a></li>
+        <li><a href="#about">{t("about")}</a></li>
+        <li><a href="#experience">{t("exp")}</a></li>
+        <li><a href="#services">{t("services")}</a></li>
         <li><a href="#portafolio">Portafolio</a></li>
-        <li><a href="#testimonials">Testimonials</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#testimonials">{t("testimonial")}</a></li>
+        <li><a href="#contact">{t("contact")}</a></li>
       </ul>
 
       <div className="footer__socials">
@@ -25,11 +28,11 @@ const footer = () => {
       </div>
 
       <div className='footer__copyright'>
-        <small>&copy; Juan Bossa. All rights reserved.</small>
+        <small>&copy; Juan Bossa. {t("copy")}</small>
       </div>
 
     </footer>
   )
 }
 
-export default footer
+export default Footer
