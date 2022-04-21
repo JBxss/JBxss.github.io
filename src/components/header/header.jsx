@@ -10,7 +10,7 @@ const Header = () => {
   const { t } = useTranslation(["header"]);
 
   return (
-    <header>
+    <header id="header">
       <div className="container header__container">
         <h5>{t("greeting")}</h5>
         <h1>{t("my_name")}</h1>

@@ -12,7 +12,7 @@ const Footer = () => {
       <a href="/#" className='footer__logo'>Juan Bossa</a>
 
       <ul className='permalinks'>
-        <li><a href="/#">Home</a></li>
+        <li><a href="#header">Home</a></li>
         <li><a href="#about">{t("about")}</a></li>
         <li><a href="#experience">{t("exp")}</a></li>
         <li><a href="#services">{t("services")}</a></li>

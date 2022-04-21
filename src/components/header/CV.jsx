@@ -9,8 +9,8 @@ const CV = () => {
   
   return (
     <div className="cv">
-        <a href={cv} download target='_blank' rel="noopener noreferrer" className='btn'>{t("cv")} <FiDownload /></a>
-        <a href="#contact" className='btn btn-primary'>{t("contact")}</a>
+        <a href={cv} download target='_blank' rel="noopener noreferrer" className='btn'>{t("header:cv")} <FiDownload /></a>
+        <a href="#contact" className='btn btn-primary'>{t("header:contact")}</a>
     </div>
   )
 }
