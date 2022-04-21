@@ -88,6 +88,10 @@ export const GlobalStyles = createGlobalStyle`
     color: ${({ theme }) => theme.bg};
   }
 
+  .about__content a {
+    color: ${({ theme }) => theme.color};
+  }
+
 `;
 
 export const lightTheme = {

@@ -36,7 +36,7 @@ const About = () => {
             <article className="about__card">
               <FaFolderOpen className="about__icon" />
               <h5>{t("projects")}</h5>
-              <small>5 {t("complete")}</small>
+              <small>3 {t("complete")}</small>
             </article>
           </div>
 

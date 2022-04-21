@@ -44,6 +44,10 @@ form {
     gap: 1.2rem;
 }
 
+form button {
+    font-family: 'Poppins', sans-serif;
+}
+
 input, textarea {
     font-family: 'Poppins', sans-serif;
     width: 100%;

@@ -27,11 +27,7 @@ const Services = () => {
             </li>
             <li>
               <FiCheckSquare className='service__list-icon' />
-              <p>{t("item1_ux")}</p>
-            </li>
-            <li>
-              <FiCheckSquare className='service__list-icon' />
-              <p>{t("item2_ux")}</p>
+              <p>{t("item3_ux")}</p>
             </li>
           </ul>
         </article>
@@ -52,11 +48,7 @@ const Services = () => {
             </li>
             <li>
               <FiCheckSquare className='service__list-icon' />
-              <p>{t("item1_web")}</p>
-            </li>
-            <li>
-              <FiCheckSquare className='service__list-icon' />
-              <p>{t("item2_web")}</p>
+              <p>{t("item3_web")}</p>
             </li>
           </ul>
         </article>
@@ -77,11 +69,7 @@ const Services = () => {
             </li>
             <li>
               <FiCheckSquare className='service__list-icon' />
-              <p>{t("item1_cont")}</p>
-            </li>
-            <li>
-              <FiCheckSquare className='service__list-icon' />
-              <p>{t("item2_cont")}</p>
+              <p>{t("item3_cont")}</p>
             </li>
           </ul>
         </article>

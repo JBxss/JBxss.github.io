@@ -16,7 +16,7 @@
 .about__me-image {
     border-radius: 2rem;
     overflow: hidden;
-    background-image: radial-gradient(circle at 50% -20.71%, #ff9700 0, #ff7f00 12.5%, #ff6300 25%, #ff4100 37.5%, #ff0000 50%, #ec0018 62.5%, #da0024 75%, #c9002e 87.5%, #ba0037 100%);
+    background-color: var(--color-primary-variant);
     transform: rotate(10deg);
     transition: var(--transition);
 }
@@ -64,9 +64,20 @@
     margin: 2rem 0 2.6rem;
 }
 
-/* .about__content a {
-    background-image: radial-gradient(circle at 50% -20.71%, #ff9700 0, #ff7f00 12.5%, #ff6300 25%, #ff4100 37.5%, #ff0000 50%, #ec0018 62.5%, #da0024 75%, #c9002e 87.5%, #ba0037 100%);
-} */
+.about__content .btn-primary {
+    color: red;
+    background: transparent;
+    box-shadow: 10px 10px 0px var(--color-primary-variant);
+    transition: var(--transition);
+}
+
+.about__content a:hover {
+    background: transparent;
+    box-shadow: -10px -10px 0px var(--color-primary-variant);
+    border-color: red;
+    color: red;
+    transform: translate(10px, 10px);
+}
 
 
 /** ========= Media Queries (Medium Devices) ============== */

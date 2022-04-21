@@ -28,7 +28,7 @@ nav a:hover {
 }
 
 nav a.active {
-    background: var(--color-primary-grad);
+    background: radial-gradient(circle at 50% -20.71%, var(--color-primary), var(--color-primary-variant));
     color: var(--color-white)
 }
 

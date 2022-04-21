@@ -5,13 +5,16 @@
     "ux": "UI/UX Design",
     "item1_ux": "Creation of User Interfaces",
     "item2_ux": "Creation of User Experience",
+    "item3_ux": "Production of digital material with unique designs",
 
     "web": "Web Development",
-    "item1_web": "Creation of webpages",
-    "item2_web": "Creation of tools and WebApps",
+    "item1_web": "Construction of Webpages/WebApps",
+    "item2_web": "Ability to design all kinds of formats, from landing pages to e-Commerce stores",
+    "item3_web": "Responsive designs with Media Queries, respecting the semantics of the language",
 
-    "cont": "Content Creation",
-    "item1_cont": "Create audiovisual content",
-    "item2_cont": "Digital content creation"
+    "cont": "Technical Support",
+    "item1_cont": "Software repair on android devices",
+    "item2_cont": "Installation of OS/ROMs on PCs and android devices",
+    "item3_cont": "ability to maintain computer hardware"
 
 }

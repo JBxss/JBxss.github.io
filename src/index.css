@@ -101,7 +101,8 @@ a {
 }
 
 .btn-primary {
-    background: var(--color-primary);
+    background: radial-gradient(circle at 50% -20.71%, var(--color-primary), rgba(255, 0, 0, 0.7));
+    border-color: var(--color-primary-variant);
 }
 
 img {

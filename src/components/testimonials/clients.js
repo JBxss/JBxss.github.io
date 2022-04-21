@@ -1,21 +1,22 @@
-import AVTR1 from "../../assets/N2PuvF9Q_400x400.jpg";
-import AVTR2 from "../../assets/portfolio6.jpg";
+import AVTR1 from "../../assets/Edg.jpeg";
+import AVTR2 from "../../assets/Isai.jpeg";
+import AVTR3 from "../../assets/Val.jpeg";
 
 let clients = [
     {
         avatar: AVTR1,
-        name: 'Andres Varela',
-        review: 'Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, consequatur. Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, consequatur.'
+        name: 'Edgar Consuegra',
+        review: 'Eficiente al momento de realizar trabajos en equipo tomando las mejores decisiones y guiando a los demás integrantes si hace falta.'
     },
     {
         avatar: AVTR2,
-        name: 'Miguel Negrete',
-        review: 'Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, consequatur. Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, consequatur.'
+        name: 'Isai Marmolejo',
+        review: 'Buen estudiante, servicial cuando uno lo necesita es un buen compañero de equipo trabaja súper bien en equipo, paciente al explicar un tema, aplicado y coordinado en duda trabajos.'
     },
     {
-        avatar: AVTR1,
+        avatar: AVTR3,
         name: 'Valery Peñaranda',
-        review: 'Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, consequatur. Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, consequatur.'
+        review: 'Considero que es un compañero de quipo disciplinado, servicial, nos ayuda siempre y cuando él tenga la disponibilidad. Es una persona inteligente y paciente, y siempre está ahí para colaborarnos.'
     }
 ]
 

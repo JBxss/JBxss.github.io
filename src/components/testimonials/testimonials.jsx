@@ -41,7 +41,7 @@ const Testimonials = () => {
                 <img src={avatar} alt="Avatar" />
               </div>
               <h5 className="client__name">{name}</h5>
-              <small className="client__review">{review}</small>
+              <small className="client__review"><i>"{review}"</i></small>
             </SwiperSlide>
           );
         })}
