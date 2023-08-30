@@ -1,4 +1,5 @@
 import React from "react";
+import "./services.css"
 
 const Services = () => {
   return (
@@ -16,7 +17,7 @@ const Services = () => {
 
           <span className="services__button">
             View More{" "}
-            <i className="uil uil-arrow-right servies__button-icon"></i>
+            <i className="uil uil-arrow-right services__button-icon"></i>
           </span>
 
           <div className="services__modal">
@@ -72,7 +73,7 @@ const Services = () => {
 
           <span className="services__button">
             View More{" "}
-            <i className="uil uil-arrow-right servies__button-icon"></i>
+            <i className="uil uil-arrow-right services__button-icon"></i>
           </span>
 
           <div className="services__modal">
@@ -128,7 +129,7 @@ const Services = () => {
 
           <span className="services__button">
             View More{" "}
-            <i className="uil uil-arrow-right servies__button-icon"></i>
+            <i className="uil uil-arrow-right services__button-icon"></i>
           </span>
 
           <div className="services__modal">
