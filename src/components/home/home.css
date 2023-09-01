@@ -58,13 +58,19 @@
     margin-bottom: var(--mb-3);
 }
 
+.home__button-icon {
+    font-size: 1.3rem;
+}
+
+
+
 .home__img {
     background: url(../../assets/photo.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    box-shadow: inset 0 0 0 9px rgb(255 255 255 / 30%);
-    border: solid 1px black;
+    /* box-shadow: inset 0 0 0 9px rgba(0, 0, 0, 0.1); */
+    border: solid 1px rgba(0, 0, 0, 0.5);
     order: 1;
     justify-self: center;
     width: 300px;
