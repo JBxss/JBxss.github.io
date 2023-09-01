@@ -50,6 +50,22 @@
     font-size: var(--tiny-font-size);
 }
 
+.skills__button {
+    box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.5);
+    transition: all 400ms ease;
+}
+
+.skills__button:hover {
+    box-shadow: -10px -10px 0px rgba(0, 0, 0, 0.5);
+    transform: translate(10px, 10px);
+}
+
+ .skills__button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: var(--mb-2);
+}
+
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {

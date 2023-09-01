@@ -26,6 +26,25 @@
     font-size: var(--small-font-size);
 }
 
+.testimonial__button {
+    margin-top: var(--mb-1-5);
+    color: var(--title-color-dark);
+    font-size: var(--small-font-size);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0.25rem;
+}
+
+.testimonial__button-icon {
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+.testimonial__button:hover .testimonial__button-icon {
+    transform: translate(0.25rem);
+}
+
 /* Swiper Class */
 .swiper-pagination-bullet {
     background-color: var(--text-color) !important;

@@ -17,6 +17,7 @@
 .about__img {
   overflow: hidden;
   width: 350px;
+  height: min-content;
   border-radius: 1.5rem;
   border: 1px solid black;
   justify-self: center;
@@ -60,16 +61,6 @@
 .about__description {
   padding: 0 4rem 0 0;
   margin-bottom: var(--mb-2-5);
-}
-
-.about__button {
-    box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.5);
-    transition: all 400ms ease;
-}
-
-.about__button:hover {
-    box-shadow: -10px -10px 0px rgba(0, 0, 0, 0.5);
-    transform: translate(10px, 10px);
 }
 
 /*=============== BREAKPOINTS ===============*/
