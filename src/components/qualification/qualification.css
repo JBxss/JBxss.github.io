@@ -10,26 +10,23 @@
 }
 
 .qualification__button {
-    font-size: var(--h3-font-size);
+    font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
     color: var(--title-color);
     margin: 0 var(--mb-1);
+    padding: 0.25rem 0.5rem;
     cursor: pointer;
-}
-
-.qualification__button:hover {
-    color: var(--title-color-dark);
+    transition: all 400ms ease;
 }
 
 .qualification__icon {
-    font-size: 1.8rem;
+    font-size: var(--h3-font-size);
     margin-right: var(--mb-0-25);  
 }
 
 .qualification__active {
-    padding: 0 0.5rem;
-    color: var(--title-color-dark);
-    border: 1px solid rgba(0, 0, 0, 0.5);
+    background-color: var(--title-color);
+    color: var(--container-color);
     border-radius: 10px;
 }
 
