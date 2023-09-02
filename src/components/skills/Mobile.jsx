@@ -4,7 +4,7 @@ import { mobile } from "./Data";
 const Mobile = () => {
   return (
     <div className="skills__content">
-      <h3 className="skills__title">Backend Developer</h3>
+      <h3 className="skills__title">Mobile Developer</h3>
 
       <div className="skills__box">
         <div className="skills__group">

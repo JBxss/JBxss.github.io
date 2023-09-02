@@ -1,4 +1,5 @@
 import React from 'react'
+import { others } from './Data';
 
 const Other = () => {
   return (
@@ -7,50 +8,16 @@ const Other = () => {
 
       <div className="skills__box">
         <div className="skills__group">
-          <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
-            <div>
-              <h3 className="skills__name">HTML</h3>
-              <span className="skills__level">Basic</span>
-            </div>
-          </div>
-          <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
-            <div>
-              <h3 className="skills__name">HTML</h3>
-              <span className="skills__level">Basic</span>
-            </div>
-          </div>
-          <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
-            <div>
-              <h3 className="skills__name">HTML</h3>
-              <span className="skills__level">Basic</span>
-            </div>
-          </div>
-        </div>
-        <div className="skills__group">
-          <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
-            <div>
-              <h3 className="skills__name">HTML</h3>
-              <span className="skills__level">Basic</span>
-            </div>
-          </div>
-          <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
-            <div>
-              <h3 className="skills__name">HTML</h3>
-              <span className="skills__level">Basic</span>
-            </div>
-          </div>
-          <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
-            <div>
-              <h3 className="skills__name">HTML</h3>
-              <span className="skills__level">Basic</span>
-            </div>
-          </div>
+          {others.map(({ name, image }) => {
+            return (
+              <div className="skills__data">
+                <img className="skills__img" src={image} alt="" />
+                <div>
+                  <h3 className="skills__name">{name}</h3>
+                </div>
+              </div>
+            );
+          })}
         </div>
       </div>
     </div>
