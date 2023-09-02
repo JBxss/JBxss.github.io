@@ -33,10 +33,14 @@
 .skills__data {
     display: flex;
     column-gap: 0.5rem;
+    border: 1px solid black;
+    padding: 0.25rem 0.5rem;
+    border-radius: 10px;
 }
 
-.skills .bx-badge-check {
-    font-size: 1rem;
+.skills .skills__img {
+    height: 1rem;
+    width: 1rem;
     color: var(--title-color);
 }
 
