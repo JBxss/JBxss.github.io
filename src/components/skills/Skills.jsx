@@ -2,6 +2,8 @@ import React from "react";
 import "./skills.css";
 import Frontend from "./Frontend";
 import Backend from "./Backend";
+import Mobile from "./Mobile";
+import Other from "./Other";
 const Certify =
   "https://drive.google.com/drive/folders/1S1NPiKxZYqjyP7GykIuf4ZNLbwQzXm76?usp=sharing";
 
@@ -14,6 +16,8 @@ const Skills = () => {
       <div className="skills__container container grid">
         <Frontend />
         <Backend />
+        <Mobile />
+        <Other />
       </div>
 
       <div className="skills__button-container">
