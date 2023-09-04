@@ -2,7 +2,7 @@ export const Bio = {
   roles: [
     "Junior Developer",
     "Systems Engineer",
-    "Web Developer",
+    "Web Designer",
     "Programmer",
   ],
 };

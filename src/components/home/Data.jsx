@@ -106,7 +106,7 @@ const Data = () => {
         I am Junior Frontend Developer able to build a Web presence from the
         ground up - from concept, navigation, layout and programming.
       </p>
-      <a href="#contact" target="_blank" className="button button--flex">
+      <a href="#contact" className="button button--flex">
         Let's Talk{" "}
         <svg
           class="button__icon"
