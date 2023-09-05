@@ -1,8 +1,10 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
+import { useTranslation } from "react-i18next";
 import { Bio } from "./Rol";
 
 const Data = () => {
+  const { t } = useTranslation(["about"]);
   return (
     <div className="home__data">
       <h1 className="home__title">
@@ -103,8 +105,7 @@ const Data = () => {
         />
       </h3>
       <p className="home__description">
-        I am Junior Frontend Developer able to build a Web presence from the
-        ground up - from concept, navigation, layout and programming.
+      {t("about_description")}
       </p>
       <a href="#contact" className="button button--flex">
         Let's Talk{" "}

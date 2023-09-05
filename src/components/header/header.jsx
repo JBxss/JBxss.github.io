@@ -1,7 +1,24 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import "./header.css";
 
 const Header = () => {
+  /*=============== Change Lng ===============*/
+  const { i18n, t } = useTranslation(["header"]);
+
+  useEffect(() => {
+    const storedLanguage = localStorage.getItem("i18nextLng");
+    if (storedLanguage) {
+      i18n.changeLanguage(storedLanguage); // Cambia al idioma almacenado en localStorage
+    }
+  }, []); // Solo se ejecutará una vez al cargar la página
+
+  const handleLanguageChange = (e) => {
+    const selectedLanguage = e.target.value;
+    i18n.changeLanguage(selectedLanguage);
+    localStorage.setItem("i18nextLng", selectedLanguage); // Almacena el idioma seleccionado en localStorage
+  };
+
   /*=============== Change Background Menu ===============*/
   window.addEventListener("scroll", function () {
     const header = document.querySelector(".header");
@@ -35,50 +52,72 @@ const Header = () => {
             </li>
 
             <li className="nav__item">
-              <a href="#about" onClick={() => setActiveNav("#about")}
+              <a
+                href="#about"
+                onClick={() => setActiveNav("#about")}
                 className={
                   activeNav === "#about" ? "nav__link active-link" : "nav__link"
-                }>
+                }
+              >
                 <i className="uil uil-user nav__icon"></i> About
               </a>
             </li>
 
             <li className="nav__item">
-              <a href="#skills" onClick={() => setActiveNav("#skills")}
+              <a
+                href="#skills"
+                onClick={() => setActiveNav("#skills")}
                 className={
-                  activeNav === "#skills" ? "nav__link active-link" : "nav__link"
-                }>
-                <i className="uil uil-file-alt nav__icon"></i> Skills
+                  activeNav === "#skills"
+                    ? "nav__link active-link"
+                    : "nav__link"
+                }
+              >
+                <i className="uil uil-file-alt nav__icon"></i> {t("nav_skills")}
               </a>
             </li>
 
             <li className="nav__item">
-              <a href="#services" onClick={() => setActiveNav("#services")}
+              <a
+                href="#services"
+                onClick={() => setActiveNav("#services")}
                 className={
-                  activeNav === "#services" ? "nav__link active-link" : "nav__link"
-                }>
+                  activeNav === "#services"
+                    ? "nav__link active-link"
+                    : "nav__link"
+                }
+              >
                 <i className="uil uil-briefcase-alt nav__icon"></i> Services
               </a>
             </li>
 
             <li className="nav__item">
-              <a href="#portfolio" onClick={() => setActiveNav("#portfolio")}
+              <a
+                href="#portfolio"
+                onClick={() => setActiveNav("#portfolio")}
                 className={
-                  activeNav === "#portfolio" ? "nav__link active-link" : "nav__link"
-                }>
+                  activeNav === "#portfolio"
+                    ? "nav__link active-link"
+                    : "nav__link"
+                }
+              >
                 <i className="uil uil-scenery nav__icon"></i> Portafolio
               </a>
             </li>
 
             <li className="nav__item">
-              <a href="#contact" onClick={() => setActiveNav("#contact")}
+              <a
+                href="#contact"
+                onClick={() => setActiveNav("#contact")}
                 className={
-                  activeNav === "#contact" ? "nav__link active-link" : "nav__link"
-                }>
+                  activeNav === "#contact"
+                    ? "nav__link active-link"
+                    : "nav__link"
+                }
+              >
                 <i className="uil uil-message nav__icon"></i> Contact
               </a>
             </li>
-
           </ul>
 
           <i
@@ -89,25 +128,33 @@ const Header = () => {
 
         <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
           <ul className="nav__list grid nav__list-toggle">
-          <li className="nav__item">
-              <a href="#lenguage" onClick={() => setActiveNav("#lenguage")}
-                className={
-                  activeNav === "#lenguage" ? "nav__link active-link" : "nav__link"
-                }>
-                <i className="uil uil-english-to-chinese nav__icon-toggle"></i>
-              </a>
+            <li>
+              <select
+                className="btn btn__trans"
+                value={i18n.language} // Establece el valor del selector al idioma actual
+                onChange={handleLanguageChange}
+              >
+                <option value="" selected>
+                  lng
+                </option>
+                <option value="en">en</option>
+                <option value="es">es</option>
+              </select>
             </li>
 
             <li className="nav__item">
-              <a href="#theme" onClick={() => setActiveNav("#theme")}
+              <a
+                href="#theme"
+                onClick={() => setActiveNav("#theme")}
                 className={
                   activeNav === "#theme" ? "nav__link active-link" : "nav__link"
-                }>
+                }
+              >
                 <i className="uil uil-brightness nav__icon-toggle"></i>
               </a>
             </li>
           </ul>
-          </div>
+        </div>
 
         <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>
           <i className="uil uil-apps"></i>

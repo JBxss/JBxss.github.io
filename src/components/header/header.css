@@ -43,9 +43,7 @@
     border-radius: 0.5rem;
 }
 
-.nav__list-toggle{
-    border: 1px solid black;
-}
+
 
 .nav__icon, .nav__close, .nav__toggle {
     display: none;
