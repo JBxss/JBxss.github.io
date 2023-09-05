@@ -134,19 +134,19 @@ export const projectsData = [
   },
   {
     id: 16,
-    image: Api,
-    title: "API NodeJS+PostgreSQL+JWT",
-    code: "https://github.com/JBxss/API-NodeJS-PostgreSQL-JWT",
-    demo: "",
-    category: "api",
-  },
-  {
-    id: 17,
     image: Work1,
     title: "C.R.U.D on PHP+MySQL",
     code: "https://github.com/JBxss/C.R.U.D-on-PHP-MySQL",
     demo: "",
     category: "web",
+  },
+  {
+    id: 17,
+    image: Api,
+    title: "API NodeJS+PostgreSQL+JWT",
+    code: "https://github.com/JBxss/API-NodeJS-PostgreSQL-JWT",
+    demo: "",
+    category: "api",
   },
   {
     id: 18,

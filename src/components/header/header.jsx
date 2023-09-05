@@ -78,6 +78,7 @@ const Header = () => {
                 <i className="uil uil-message nav__icon"></i> Contact
               </a>
             </li>
+
           </ul>
 
           <i
@@ -85,6 +86,28 @@ const Header = () => {
             onClick={() => showMenu(!Toggle)}
           ></i>
         </div>
+
+        <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
+          <ul className="nav__list grid nav__list-toggle">
+          <li className="nav__item">
+              <a href="#lenguage" onClick={() => setActiveNav("#lenguage")}
+                className={
+                  activeNav === "#lenguage" ? "nav__link active-link" : "nav__link"
+                }>
+                <i className="uil uil-english-to-chinese nav__icon-toggle"></i>
+              </a>
+            </li>
+
+            <li className="nav__item">
+              <a href="#theme" onClick={() => setActiveNav("#theme")}
+                className={
+                  activeNav === "#theme" ? "nav__link active-link" : "nav__link"
+                }>
+                <i className="uil uil-brightness nav__icon-toggle"></i>
+              </a>
+            </li>
+          </ul>
+          </div>
 
         <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>
           <i className="uil uil-apps"></i>

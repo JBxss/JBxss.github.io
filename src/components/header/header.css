@@ -35,6 +35,18 @@
    transition: .3s;
 }
 
+.nav__icon-toggle{
+    background-color: var(--title-color);
+    color: var(--container-color);
+    font-size: 1.15rem;
+    padding: 0.1rem 0.4rem;
+    border-radius: 0.5rem;
+}
+
+.nav__list-toggle{
+    border: 1px solid black;
+}
+
 .nav__icon, .nav__close, .nav__toggle {
     display: none;
 }
