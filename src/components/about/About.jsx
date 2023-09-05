@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import "./about.css";
 import AboutImg from "../../assets/bg.jpg";
 import Info from "./Info";
@@ -6,10 +7,11 @@ const CV =
   "https://drive.google.com/drive/folders/1Jjtmv2XNjMguUCpjJJ94yt6Hgwh0aoh_?usp=sharing";
 
 const About = () => {
+  const { t } = useTranslation(["about"]);
   return (
     <section className="about section" id="about">
-      <h2 className="section__title">About Me</h2>
-      <span className="section__subtitle">My Introduction</span>
+      <span className="section__subtitle">{t("about_subtitle")}</span>
+      <h2 className="section__title">{t("about_title")}</h2>
 
       <div className="about__container container grid">
         <div className="about__me">
@@ -19,20 +21,10 @@ const About = () => {
         <div className="about__data">
           <Info />
 
-          <p className="about__description">
-            I am Junior Frontend Developer able to build a Web presence from the
-            ground up - from concept, navigation, layout and programming.
-            Skilled at writing well-designed, testable and efficient code using
-            current best practices in Frontend Development. Fast learner, hard
-            worker and team player.
-          </p>
+          <p className="about__description">{t("about_description")}</p>
 
-          <a
-            href={CV}
-            target="_blank"
-            className="button button--flex"
-          >
-            Download CV
+          <a href={CV} target="_blank" className="button button--flex">
+            {t("about_button")}
             <svg
               class="button__icon"
               width="24"

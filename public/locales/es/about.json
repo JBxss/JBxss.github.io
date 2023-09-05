@@ -1,3 +1,12 @@
 {
-    "about_description": "hola soy juan y hablo español"
+    "about_title": "Sobre Mi",
+    "about_subtitle": "Conoce",
+    "about_description":"Soy un apasionado programador junior con deseos de aprender y mejorar en el mundo de la tecnología y el desarrollo de software. Mi enfoque se centra en la resolución creativa de problemas y la búsqueda constante de las últimas tendencias y tecnologías. Además, disfruto colaborar en equipo y estoy emocionado por contribuir y crecer en proyectos futuros.",
+    "about_button": "Descargar CV",
+    "about_title-exp": "Experiencia",
+    "about_title-edu": "Educacion",
+    "about_title-work": "Proyectos",
+    "about_exp": "Meses Trabajando",
+    "about_edu": "Certificados",
+    "about_work": "Completados"
 }

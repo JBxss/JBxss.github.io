@@ -4,5 +4,8 @@
     "nav_skills": "Habilidades",
     "nav_services": "Servicios",
     "nav_portfolio": "Portafolio",
-    "nav_contact": "Contacto"
+    "nav_contact": "Contacto",
+    "nav_lng": "Lenguaje",
+    "nav_en": "Ingles",
+    "nav_es": "Español"
 }

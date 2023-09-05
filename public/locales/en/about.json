@@ -1,3 +1,12 @@
 {
-    "about_description": "I am Juan and i speak english"
+    "about_title": "About Me",
+    "about_subtitle": "Get To Know",
+    "about_description":"I am a passionate junior programmer with a desire to learn and improve in the world of technology and software development. My focus is on creative problem solving and constantly looking for the latest trends and technologies. In addition, I enjoy collaborating in a team and am excited to contribute and grow in future projects.",
+    "about_button": "Download CV",
+    "about_title-exp": "Experience",
+    "about_title-edu": "Education",
+    "about_title-work": "Projects",
+    "about_exp": "Month Working",
+    "about_edu": "Certificates",
+    "about_work": "Completed"
 }

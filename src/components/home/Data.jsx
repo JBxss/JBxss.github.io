@@ -4,11 +4,12 @@ import { useTranslation } from "react-i18next";
 import { Bio } from "./Rol";
 
 const Data = () => {
-  const { t } = useTranslation(["about"]);
+  const { t, i18n } = useTranslation(["home"]);
+  const TypeStrings = i18n.language === "en" ? Bio.rolEN : Bio.rolES;
   return (
     <div className="home__data">
       <h1 className="home__title">
-        Hi, I am<br />Juan Bossa{" "}
+      {t("home_presentation")}<br />Juan Bossa{" "}
         <svg
           viewBox="0 0 64 64"
           xmlns="http://www.w3.org/2000/svg"
@@ -98,17 +99,17 @@ const Data = () => {
       <h3 className="home__subtitle">
         <Typewriter
           options={{
-            strings: Bio.roles,
+            strings: TypeStrings,
             autoStart: true,
             loop: true,
           }}
         />
       </h3>
       <p className="home__description">
-      {t("about_description")}
+      {t("home_description")}
       </p>
       <a href="#contact" className="button button--flex">
-        Let's Talk{" "}
+      {t("home_button")}{" "}
         <svg
           class="button__icon"
           xmlns="http://www.w3.org/2000/svg"
