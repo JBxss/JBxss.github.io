@@ -12,8 +12,10 @@
 
 .testimonial__img {
     width: 60px;
+    height: 60px;
     border-radius: 3rem;
     margin-bottom: var(--mb-1);
+    object-fit: cover;
 }
 
 .testimonial__name {
