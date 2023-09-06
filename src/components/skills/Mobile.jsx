@@ -1,10 +1,12 @@
 import React from "react";
 import { mobile } from "./Data";
+import { useTranslation } from "react-i18next";
 
 const Mobile = () => {
+  const { t } = useTranslation(["skills"]);
   return (
     <div className="skills__content">
-      <h3 className="skills__title">Mobile Developer</h3>
+      <h3 className="skills__title">{t("skills_mobile")}</h3>
 
       <div className="skills__box">
         <div className="skills__group">

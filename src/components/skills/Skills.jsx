@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import "./skills.css";
 import Frontend from "./Frontend";
 import Backend from "./Backend";
@@ -8,10 +9,12 @@ const Certify =
   "https://drive.google.com/drive/folders/1S1NPiKxZYqjyP7GykIuf4ZNLbwQzXm76?usp=sharing";
 
 const Skills = () => {
+  const { t } = useTranslation(["skills"]);
   return (
     <section className="skills section" id="skills">
-      <h2 className="section__title">Skills</h2>
-      <span className="section__subtitle">My technical level</span>
+      <span className="section__subtitle">{t("skills_subtitle")}</span>
+      <h2 className="section__title">{t("skills_title")}</h2>
+      
 
       <div className="skills__container container grid">
         <Frontend />
@@ -26,7 +29,7 @@ const Skills = () => {
         target="_blank"
         className="button button--flex skills__button"
       >
-        See Certificates
+        {t("skills_button")}
         <svg
           class="button__icon"
           xmlns="http://www.w3.org/2000/svg"
