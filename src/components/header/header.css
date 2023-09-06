@@ -43,7 +43,11 @@
     border-radius: 0.5rem;
 }
 
-
+.nav__lng {
+    color: var(--title-color);
+    border: none;
+    background-color: var(--body-color);
+}
 
 .nav__icon, .nav__close, .nav__toggle {
     display: none;
@@ -120,6 +124,21 @@
     .nav__icon, .nav__close, .nav__toggle {
         display: block;
     }
+
+    .nav__icon-toggle {
+        position: absolute;
+        top: .5rem;
+        right: 4rem;
+        color: var(--title-color);
+        background-color: transparent;
+    }
+
+    .nav__lng {
+        position: absolute;
+        top: 1rem;
+        left: 5.6rem;
+    }
+
   }
 
   /* For small devices */

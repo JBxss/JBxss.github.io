@@ -60,7 +60,7 @@
 /* For large devices */
 @media screen and (max-width: 992px) {
     .footer__social-link {
-        padding: 0.25rem;
+        padding: 0.1rem 0.25rem;
         border-radius: 0.25rem;
         font-size: 1rem;
     }

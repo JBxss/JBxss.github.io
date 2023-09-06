@@ -128,11 +128,10 @@ const Header = () => {
           ></i>
         </div>
 
-        <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
           <ul className="nav__list grid nav__list-toggle">
             <li>
               <select
-                className="btn btn__trans"
+                className="nav__lng"
                 value={i18n.language} // Establece el valor del selector al idioma actual
                 onChange={handleLanguageChange}
               >
@@ -148,15 +147,12 @@ const Header = () => {
               <a
                 href="#theme"
                 onClick={() => setActiveNav("#theme")}
-                className={
-                  activeNav === "#theme" ? "nav__link active-link" : "nav__link"
-                }
+                className="nav__icon-toggle"
               >
-                <i className="uil uil-brightness nav__icon-toggle"></i>
+                <i className="uil uil-brightness"></i>
               </a>
             </li>
           </ul>
-        </div>
 
         <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>
           <i className="uil uil-apps"></i>
