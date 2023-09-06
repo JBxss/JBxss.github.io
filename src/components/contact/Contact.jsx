@@ -1,8 +1,10 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { useTranslation } from "react-i18next";
 import "./contact.css";
 
 const Contact = () => {
+  const { t } = useTranslation(["contact"]);
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -20,12 +22,12 @@ const Contact = () => {
 
   return (
     <section className="contact section" id="contact">
-      <h2 className="section__title">Get in touch</h2>
-      <span className="section__subtitle">Contact Me</span>
+      <span className="section__subtitle">{t("contact_subtitle")}</span>
+      <h2 className="section__title">{t("contact_title")}</h2>
 
       <div className="contact__container container grid">
         <div className="contact__content">
-          <h3 className="contact__title">Talk to me</h3>
+          <h3 className="contact__title">{t("contact_title-tab1")}</h3>
 
           <div className="contact__info">
             <div className="contact__card">
@@ -35,7 +37,7 @@ const Contact = () => {
               <span className="contact__card-data">juanseb100@gmail.com</span>
 
               <a href="mailto:juanseb100@gmail.com" className="contact__button">
-                Write me{" "}
+              {t("contact_title-tab2")} 
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
@@ -50,7 +52,7 @@ const Contact = () => {
                 href="https://api.whatsapp.com/send?phone=3022497730&text=Hola, vi tu website y me gustaria saber mas informacion!"
                 className="contact__button"
               >
-                Write me{" "}
+                {t("contact_title-tab2")} 
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
@@ -59,7 +61,7 @@ const Contact = () => {
         </div>
 
         <div className="contact__content">
-          <h3 className="contact__title">write me</h3>
+          <h3 className="contact__title">{t("contact_title-tab2")}</h3>
 
           <form
             action=""
@@ -68,12 +70,12 @@ const Contact = () => {
             onSubmit={sendEmail}
           >
             <div className="contact__form-div">
-              <label className="contact__form-tag">Name</label>
+              <label className="contact__form-tag">{t("contact_name")}</label>
               <input
                 type="text"
                 name="name"
                 className="contact__form-input"
-                placeholder="Insert your name"
+                placeholder={t("contact_placeholder-name")}
               />
             </div>
             <div className="contact__form-div">
@@ -82,22 +84,22 @@ const Contact = () => {
                 type="email"
                 name="email"
                 className="contact__form-input"
-                placeholder="Insert your email"
+                placeholder={t("contact_placeholder-email")}
               />
             </div>
             <div className="contact__form-div contact__form-area">
-              <label className="contact__form-tag">Message</label>
+              <label className="contact__form-tag">{t("contact_message")}</label>
               <textarea
                 name="message"
                 cols="30"
                 rows="10"
                 className="contact__form-input"
-                placeholder="Insert your message"
+                placeholder={t("contact_placeholder-message")}
               ></textarea>
             </div>
 
             <button className="button button--flex">
-              Send Message{" "}
+            {t("contact_button")} 
               <svg
                 class="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
