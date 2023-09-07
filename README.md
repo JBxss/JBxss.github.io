@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Mi Portafolio Personal
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este es mi portafolio personal donde comparto mis proyectos y habilidades. Puedes verlo en acción [aquí](https://jbxss.github.io/).
 
-## Available Scripts
+## Tecnologías Utilizadas
 
-In the project directory, you can run:
+- React
+- CSS (sin ningún framework)
+- [Typewriter.js](https://github.com/tameemsafi/typewriterjs) para animación de texto
+- [SwiperJS](https://swiperjs.com/) para el apartado de los testimonios
+- [EmailJS](https://www.emailjs.com/) para el formulario de contacto
+- [i18next](https://www.i18next.com/) para la internacionalización y traducciones
 
-### `npm start`
+## Capturas de Pantalla
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Captura de Pantalla 1](./public/img/screenshot1.png)
+*Página principal*
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Captura de Pantalla 2](./public/img/screenshot2.png)
+*Seccion de Habilidades*
 
-### `npm test`
+![Captura de Pantalla 3](./public/img/screenshot3.png)
+*Seccion de Portafolio*
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Funcionalidades Destacadas
 
-### `npm run build`
+- Animación de texto en la página de inicio utilizando Typewriter.js.
+- Carrousel de testimonios utilizando SwiperJS.
+- Formulario de contacto con funcionalidad de envío de correo electrónico a través de EmailJS.
+- Internacionalización y traducciones con i18next para llegar a una audiencia global.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Instalación
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clona este repositorio:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+git clone https://github.com/JBxss/JBxss.github.io.git
+```
 
-### `npm run eject`
+2. Instala las dependencias:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+npm install
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Ejecuta la aplicación en tu entorno de desarrollo local:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+npm start
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+¡Gracias por visitar mi portafolio! Si tienes alguna pregunta o sugerencia, no dudes en [contactarme](https://jbxss.github.io/#contact).
