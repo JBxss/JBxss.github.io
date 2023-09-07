@@ -1,0 +1,17 @@
+{
+    "qua_title": "Cualificaciones",
+    "qua_subtitle": "Mi trayectoria personal",
+    "qua_present": "Presente",
+
+    "qua_edu": "Educacion",
+    "qua_edu-title1": "Ingenieria de Sistemas",
+    "qua_edu-subtitle1": "Colombia - Universidad Simon Bolivar",
+    "qua_edu-title2": "Tecnologias Backend",
+    "qua_edu-subtitle2": "Online - Codigo Facilito",
+    "qua_edu-title3": "Desarrollo Web",
+    "qua_edu-subtitle3": "Online - Platzi",
+
+    "qua_exp": "Experiencia",
+    "qua_exp-title1": "Asistente de Sistemas",
+    "qua_exp-subtitle1": "Barranquilla - Grupo Colba"
+}

@@ -1,0 +1,34 @@
+{
+    "services_title": "Services",
+    "services_subtitle": "What i offer",
+    "services_button": "View More",
+
+    "services_modal1-title": "Web",
+    "services_modal1-subtitle": "Development",
+    "services_modal1-description": "My professional web development service is designed to transform your ideas into functional and attractive websites.",
+    "services_modal1-skill1": "Creation of websites that adapt to different devices",
+    "services_modal1-skill2": "Customization of the web platform according to the customer's specific needs",
+    "services_modal1-skill3": "Ensure that the web site is fast and efficient in loading pages",
+    "services_modal1-skill4": "Implementing robust security measures to protect user data",
+    "services_modal1-skill5": "Ensuring that the web site complies with web accessibility and usability standards",
+
+
+    "services_modal2-title": "Software",
+    "services_modal2-subtitle": "Architecture",
+    "services_modal2-description": "My software architecture service is the solid foundation on which robust and efficient technology systems are built.",
+    "services_modal2-skill1": "Design architecture to be easy to maintain and update",
+    "services_modal2-skill2": "Ensuring seamless integration with other systems and services",
+    "services_modal2-skill3": "I create an architecture that can grow with your business",
+    "services_modal2-skill4": "I implement security layers at all stages of the architecture.",
+    "services_modal2-skill5": "I make sure your architecture is ready to incorporate new technologies.",
+
+    "services_modal3-title": "Technical",
+    "services_modal3-subtitle": "Support",
+    "services_modal3-description": "My technical support service is designed to keep your technology systems up and running.",
+    "services_modal3-skill1": "I have the ability to diagnose and solve problems efficiently.",
+    "services_modal3-skill2": "I perform periodic reviews and updates to prevent problems.",
+    "services_modal3-skill3": "I offer assistance both online and in person, adapting to your needs and preferences.",
+    "services_modal3-skill4": "Help with mobile application problems, such as crashes, bugs and performance issues",
+    "services_modal3-skill5": "I offer services to install and update operating systems on your devices."
+    
+}

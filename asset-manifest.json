@@ -1,24 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.64c4216d.css",
-    "main.js": "/static/js/main.5c44db26.js",
-    "static/media/portafolio4.png": "/static/media/portafolio4.c57575fd3a4bff353987.png",
-    "static/media/portafolio5.png": "/static/media/portafolio5.028588b8fb188bdb4ff7.png",
-    "static/media/portafolio2.png": "/static/media/portafolio2.76dde927c1423f7f21a8.png",
-    "static/media/Val.jpeg": "/static/media/Val.d7c14db6362fce55d2c7.jpeg",
-    "static/media/portafolio1.jpg": "/static/media/portafolio1.93451b4d45d1ded6098f.jpg",
-    "static/media/portafolio3.png": "/static/media/portafolio3.900711a77ce57f579a22.png",
-    "static/media/Isai.jpeg": "/static/media/Isai.e91dad98455a786fb277.jpeg",
-    "static/media/Edg.jpeg": "/static/media/Edg.1e375862efadd10594cc.jpeg",
-    "static/media/me_about.png": "/static/media/me_about.55e128fe0380f5723c04.png",
-    "static/media/me_header.png": "/static/media/me_header.07f986dbd05305a7f542.png",
+    "main.css": "/static/css/main.af69cc57.css",
+    "main.js": "/static/js/main.b8c88b79.js",
+    "static/media/pokemonphp.png": "/static/media/pokemonphp.1bfe058f2af050c20db4.png",
+    "static/media/zonabc.png": "/static/media/zonabc.c41e27d5c36dd218aadf.png",
+    "static/media/bg.jpg": "/static/media/bg.5fa59e902fecbb413f58.jpg",
+    "static/media/fastjobs.png": "/static/media/fastjobs.879db023d7401e2c249c.png",
+    "static/media/fitnessjs.png": "/static/media/fitnessjs.2229b14061291745bb5c.png",
+    "static/media/petgram.png": "/static/media/petgram.028588b8fb188bdb4ff7.png",
+    "static/media/reactshop.png": "/static/media/reactshop.76dde927c1423f7f21a8.png",
+    "static/media/crudphp.png": "/static/media/crudphp.331624e373fa7b5c82fc.png",
+    "static/media/pluyer.jpg": "/static/media/pluyer.93451b4d45d1ded6098f.jpg",
+    "static/media/none.png": "/static/media/none.9557e88cf697d8c3181b.png",
+    "static/media/hyperblog.png": "/static/media/hyperblog.900711a77ce57f579a22.png",
+    "static/media/testimonial1.jpeg": "/static/media/testimonial1.e91dad98455a786fb277.jpeg",
+    "static/media/api.jpeg": "/static/media/api.36a8b6d36eb262d8748a.jpeg",
+    "static/media/testimonial2.jpeg": "/static/media/testimonial2.1e375862efadd10594cc.jpeg",
+    "static/media/photo.jpeg": "/static/media/photo.ae4740ac614e26fdb157.jpeg",
+    "static/media/ia.jpeg": "/static/media/ia.94d87046b4ef2b16f1ba.jpeg",
     "index.html": "/index.html",
-    "static/media/getFetch.cjs": "/static/media/getFetch.c780682470504fffbd04.cjs",
-    "main.64c4216d.css.map": "/static/css/main.64c4216d.css.map",
-    "main.5c44db26.js.map": "/static/js/main.5c44db26.js.map"
+    "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "main.af69cc57.css.map": "/static/css/main.af69cc57.css.map",
+    "main.b8c88b79.js.map": "/static/js/main.b8c88b79.js.map"
   },
   "entrypoints": [
-    "static/css/main.64c4216d.css",
-    "static/js/main.5c44db26.js"
+    "static/css/main.af69cc57.css",
+    "static/js/main.b8c88b79.js"
   ]
 }

@@ -1,0 +1,33 @@
+{
+    "services_title": "Servicios",
+    "services_subtitle": "Lo que ofrezco",
+    "services_button": "Ver Mas",
+
+    "services_modal1-title": "Desarrollo",
+    "services_modal1-subtitle": "Web",
+    "services_modal1-description": "Mi servicio de desarrollo web profesional está diseñado para transformar tus ideas en sitios web funcionales y atractivos.",
+    "services_modal1-skill1": "Creación de sitios web que se adaptan a diferentes dispositivos",
+    "services_modal1-skill2": "Personalización de la plataforma web según las necesidades específicas del cliente",
+    "services_modal1-skill3": "Garantizar que el sitio web sea rápido y eficiente en la carga de páginas",
+    "services_modal1-skill4": "Implementación de medidas de seguridad robustas para proteger los datos del usuario",
+    "services_modal1-skill5": "Aseguramiento de que el sitio web cumple con los estándares de accesibilidad y usabilidad web",
+
+    "services_modal2-title": "Aquitectura de",
+    "services_modal2-subtitle": "Software",
+    "services_modal2-description": "Mi servicio de arquitectura de software es la base sólida en la que se construyen sistemas tecnológicos robustos y eficientes.",
+    "services_modal2-skill1": "Diseño la arquitectura para que sea fácil de mantener y actualizar",
+    "services_modal2-skill2": "Garantizar una integración perfecta con otros sistemas y servicios",
+    "services_modal2-skill3": "Creo una arquitectura que puede crecer con tu negocio",
+    "services_modal2-skill4": "Implemento capas de seguridad en todas las etapas de la arquitectura",
+    "services_modal2-skill5": "Me aseguro que tu arquitectura esté lista para incorporar nuevas tecnologías.",
+
+    "services_modal3-title": "Soporte",
+    "services_modal3-subtitle": "Tecnico",
+    "services_modal3-description": "Mi servicio de soporte técnico está diseñado para mantener tus sistemas tecnológicos en funcionamiento.",
+    "services_modal3-skill1": "Cuento con capacidades para diagnosticar y resolver problemas de manera eficiente",
+    "services_modal3-skill2": "Realizo revisiones y actualizaciones periódicas para prevenir problemas",
+    "services_modal3-skill3": "Ofrezco asistencia tanto en línea como en persona, adaptándome a tus necesidades y preferencias",
+    "services_modal3-skill4": "Ayuda con problemas de aplicaciones móviles, como bloqueos, errores de funcionamiento y problemas de rendimiento",
+    "services_modal3-skill5": "Ofrezco servicios para instalar y actualizar sistemas operativos en tus dispositivos"
+    
+}
