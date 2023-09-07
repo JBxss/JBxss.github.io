@@ -9,8 +9,8 @@ const Data = () => {
   return (
     <div className="home__data">
       <h1 className="home__title">
-      {t("home_presentation")}<br />Juan Bossa{" "}
-        <svg
+      {t("home_presentation")}<br />Juan Bossa
+        {/* <svg
           viewBox="0 0 64 64"
           xmlns="http://www.w3.org/2000/svg"
           xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -94,7 +94,7 @@ const Data = () => {
               </path>{" "}
             </g>{" "}
           </g>
-        </svg>
+        </svg> */}
       </h1>
       <h3 className="home__subtitle">
         <Typewriter

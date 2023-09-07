@@ -47,6 +47,7 @@
     color: var(--title-color);
     border: none;
     background-color: var(--body-color);
+    font-size: var(--small-font-size);
 }
 
 .nav__icon, .nav__close, .nav__toggle {
@@ -135,7 +136,7 @@
 
     .nav__lng {
         position: absolute;
-        top: 1rem;
+        top: .9rem;
         left: 5.6rem;
     }
 

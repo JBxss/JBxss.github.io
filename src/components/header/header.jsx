@@ -3,6 +3,26 @@ import { useTranslation } from "react-i18next";
 import "./header.css";
 
 const Header = () => {
+  /*=============== Change Theme ===============*/
+  // const [theme, setTheme] = useState(() => {
+  //   if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+  //     return "dark";
+  //   }
+  //   return "light";
+  // });
+
+  // useEffect(() => {
+  //   if (theme === "dark") {
+  //     document.querySelector("html").classList.add("dark");
+  //   } else {
+  //     document.querySelector("html").classList.remove("dark");
+  //   }
+  // }, [theme]);
+
+  // const handleChangeTheme = () => {
+  //   setTheme((prevTheme) => (prevTheme === "light" ? "dark" : "light"));
+  // };
+
   /*=============== Change Lng ===============*/
   const { i18n, t } = useTranslation(["header"]);
 
@@ -143,15 +163,14 @@ const Header = () => {
               </select>
             </li>
 
-            <li className="nav__item">
-              <a
-                href="#theme"
-                onClick={() => setActiveNav("#theme")}
+            {/* <li className="nav__item">
+              <button
+                onClick={handleChangeTheme}
                 className="nav__icon-toggle"
               >
-                <i className="uil uil-brightness"></i>
-              </a>
-            </li>
+                {theme === "light" ? <i className="uil uil-moon"></i> : <i className="uil uil-brightness"></i>}
+              </button>
+            </li> */}
           </ul>
 
         <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>
