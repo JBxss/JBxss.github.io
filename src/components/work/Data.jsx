@@ -10,6 +10,8 @@ import Work8 from "../../assets/portfolio/hyperblog.png";
 import Work12 from "../../assets/portfolio/zonabc.png";
 import Work14 from "../../assets/portfolio/fitnessjs.png";
 import Work15 from "../../assets/portfolio/pluyer.jpg";
+import Work16 from "../../assets/portfolio/menuRestaurant.png";
+import Work17 from "../../assets/portfolio/factoryTech.png";
 
 export const projectsData = [
   {
@@ -38,17 +40,17 @@ export const projectsData = [
   },
   {
     id: 4,
-    image: Work0,
-    title: "MenuRestaurantPHP",
-    code: "https://github.com/JBxss/MenuRestaurantPHP",
+    image: Work16,
+    title: "MenuRestaurant",
+    code: "https://github.com/JBxss/MenuRestaurant",
     demo: "",
     category: "web",
   },
   {
     id: 5,
-    image: Work0,
-    title: "AbstractFactoryPHP",
-    code: "https://github.com/JBxss/AbstractFactoryPHP",
+    image: Work17,
+    title: "Abstract FactoryTech",
+    code: "https://github.com/JBxss/Abstract-FactoryTech",
     demo: "",
     category: "web",
   },
@@ -155,6 +157,30 @@ export const projectsData = [
     code: "https://github.com/JBxss/JosePT",
     demo: "",
     category: "ia",
+  },
+  {
+    id: 19,
+    image: Api,
+    title: "Democratech",
+    code: "https://github.com/JBxss/DemocraTech",
+    demo: "",
+    category: "api",
+  },
+  {
+    id: 20,
+    image: Api,
+    title: "APIMarket",
+    code: "https://github.com/JBxss/APIMarket",
+    demo: "",
+    category: "api",
+  },
+  {
+    id: 21,
+    image: Api,
+    title: "BookHound",
+    code: "https://github.com/JBxss/BookHound",
+    demo: "",
+    category: "api",
   },
 ];
 
