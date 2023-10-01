@@ -102,6 +102,25 @@ const Qualification = () => {
               </div>
             </div>
 
+            <div className="qualification__data">
+              <div></div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+
+              <div>
+                <h3 className="qualification__title">{t("qua_edu-title4")}</h3>
+                <span className="qualification__subtitle">
+                {t("qua_edu-subtitle4")}
+                </span>
+                <div className="qualification__calender">
+                  <i className="uil uil-calendar-alt"></i> 2016 - 2017
+                </div>
+              </div>
+            </div>
+
           </div>
 
           <div
