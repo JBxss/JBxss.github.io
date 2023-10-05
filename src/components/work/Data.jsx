@@ -5,6 +5,7 @@ import Work1 from "../../assets/portfolio/crudphp.png";
 import Work2 from "../../assets/portfolio/pokemonphp.png";
 import Work3 from "../../assets/portfolio/reactshop.png";
 import Work4 from "../../assets/portfolio/petgram.png";
+import Work5 from "../../assets/portfolio/notes.png";
 import Work7 from "../../assets/portfolio/fastjobs.png";
 import Work8 from "../../assets/portfolio/hyperblog.png";
 import Work12 from "../../assets/portfolio/zonabc.png";
@@ -72,7 +73,7 @@ export const projectsData = [
   },
   {
     id: 8,
-    image: Work0,
+    image: Work5,
     title: "Little Notes",
     code: "https://github.com/JBxss/Little-Notes",
     demo: "",
