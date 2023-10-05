@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.af69cc57.css",
-    "main.js": "/static/js/main.06e53a28.js",
+    "main.js": "/static/js/main.3641bad7.js",
     "static/media/pokemonphp.png": "/static/media/pokemonphp.1bfe058f2af050c20db4.png",
     "static/media/zonabc.png": "/static/media/zonabc.c41e27d5c36dd218aadf.png",
     "static/media/bg.jpg": "/static/media/bg.5fa59e902fecbb413f58.jpg",
@@ -11,6 +11,7 @@
     "static/media/petgram.png": "/static/media/petgram.028588b8fb188bdb4ff7.png",
     "static/media/reactshop.png": "/static/media/reactshop.76dde927c1423f7f21a8.png",
     "static/media/factoryTech.png": "/static/media/factoryTech.230ca240c12c01c3b5ce.png",
+    "static/media/notes.png": "/static/media/notes.daf5205680015f531fbf.png",
     "static/media/crudphp.png": "/static/media/crudphp.331624e373fa7b5c82fc.png",
     "static/media/pluyer.jpg": "/static/media/pluyer.93451b4d45d1ded6098f.jpg",
     "static/media/none.png": "/static/media/none.9557e88cf697d8c3181b.png",
@@ -23,10 +24,10 @@
     "index.html": "/index.html",
     "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.af69cc57.css.map": "/static/css/main.af69cc57.css.map",
-    "main.06e53a28.js.map": "/static/js/main.06e53a28.js.map"
+    "main.3641bad7.js.map": "/static/js/main.3641bad7.js.map"
   },
   "entrypoints": [
     "static/css/main.af69cc57.css",
-    "static/js/main.06e53a28.js"
+    "static/js/main.3641bad7.js"
   ]
 }
